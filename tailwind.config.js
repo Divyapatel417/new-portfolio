@@ -6,7 +6,7 @@ module.exports = {
     fontSize: {
       sm: ['12px', '14px'],
       base: ['16px', {
-        lineHeight: '18px',
+        lineHeight: '122x',
         letterSpacing: '-0.01em',
         fontWeight: '400',
       }],
