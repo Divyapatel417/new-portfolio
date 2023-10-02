@@ -4,7 +4,11 @@ module.exports = {
     "./src/*.{js,jsx,ts,tsx}",],
   theme: {
     fontSize: {
-      sm: ['12px', '14px'],
+      sm: ['14px', {
+        lineHeight: '122x',
+        letterSpacing: '-0.01em',
+        fontWeight: '600',
+      }],
       base: ['16px', {
         lineHeight: '122x',
         letterSpacing: '-0.01em',
@@ -20,6 +24,11 @@ module.exports = {
         letterSpacing: '-0.01em',
         fontWeight: '700',
       }],
+      divi: ['90px', {
+        lineHeight: '50px',
+        letterSpacing: '-0.01em',
+        fontWeight: '700',
+      }],
     },
 
     extend: {
@@ -29,6 +38,7 @@ module.exports = {
         'brighttext': '#e2e8f0',
         'darktext': '#94a3b8',
         'greentext': '#5eead4',
+        'darkertext':'#64748b', 
 
       },
     },
