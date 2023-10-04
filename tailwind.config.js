@@ -3,6 +3,13 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",
     "./src/*.{js,jsx,ts,tsx}",],
   theme: {
+    screens: {
+      'sm': '400px',
+      // => @media (min-width: 640px) { ... }
+
+      'lg': '1024px',
+      
+    },
     fontSize: {
       sm: ['14px', {
         lineHeight: '122x',
@@ -39,8 +46,11 @@ module.exports = {
         'darktext': '#94a3b8',
         'greentext': '#5eead4',
         'darkertext':'#64748b', 
-
       },
+      dropShadow: {
+        'md': '0 25px 25px rgba(0, 0, 0, 0.25)',
+       
+      }
     },
   },
   plugins: [],
