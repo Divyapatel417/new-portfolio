@@ -9,7 +9,6 @@ const Routing = (props) => {
       >
         <hr className=" w-10 transition-all ease-in-out delay-60 group-hover:w-24  group-hover:bg-gray-200 h-px  bg-gray-700 border-0 "></hr>
         <span className=" pl-3 text-base font-bold group-hover:text-brighttext text-darkertext ">
-          {" "}
           ABOUT
         </span>
       </div>
@@ -19,7 +18,6 @@ const Routing = (props) => {
       >
         <hr className=" w-10 transition-all ease-in-out delay-60 group-hover:w-24  group-hover:bg-gray-200 h-px  bg-gray-700 border-0 "></hr>
         <span className=" pl-3 text-base font-bold group-hover:text-brighttext text-darkertext ">
-          {" "}
           EXPERIENCE
         </span>
       </div>
@@ -29,7 +27,6 @@ const Routing = (props) => {
       >
         <hr className=" w-10 transition-all ease-in-out delay-60 group-hover:w-24  group-hover:bg-gray-200 h-px  bg-gray-700 border-0 "></hr>
         <span className=" pl-3 text-base font-bold group-hover:text-brighttext text-darkertext ">
-          {" "}
           PROJECTS
         </span>
       </div>
