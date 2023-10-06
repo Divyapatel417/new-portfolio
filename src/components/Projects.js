@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="p-3 mt-4 sm:mt-7 sm:p-1 flex lg:flex-row sm:flex-col  group hover:drop-shadow-md hover:bg-slate-800/50">
       <div className="lg:mr-6 lg:w-1/3 sm:w-2/3 sm:pr-2 sm:ml-0 ml-3">
-        <img alt="portfolio" src={portfolio} className="w-40 h-20"></img>
+        <img alt="portfolio" src={portfolio} className="w-40 h-20 border-2 border-white"></img>
       </div>
       <div className="  lg:w-80 sm:w-full sm:mt-2 lg:mt-0">
         <p className="sm:mt-3 text-lg group-hover:text-greentext text-brighttext ">
