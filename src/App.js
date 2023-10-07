@@ -38,16 +38,13 @@ function App() {
           <div id="experience" className="experience lg:pt-24 sm:pt-12 ">
           <div className="lg:hidden flex items-center  sticky top-0 text-brighttext  bg-darkblue h-16 font-bold opacity-80   align-middle "><span>Experience</span></div>
             <Experience></Experience>
-            <Experience></Experience>
-            <Experience></Experience>
+            
           </div>
           
-          <div id="projects" className="projects pt-24 sm:pt-12 ">
+          <div id="projects" className="projects pt-24 sm:pt-12 lg:mt-15 sm:mt-10">
           <div className="lg:hidden flex items-center sticky top-0 text-brighttext  bg-darkblue h-16 font-bold opacity-80 align-middle "><span>Projects</span></div>
             <Projects></Projects>
-            <Projects></Projects>
-            <Projects></Projects>
-            <Projects></Projects>
+            
           </div>
           <div className="pt-24 sm:pt-12 pb-20">
               <p className="text-base text-darkertext ">
