@@ -4,10 +4,13 @@ import { AboutData } from "../config/staticdata";
 const About = () => {
   return (
     <div className="flex-row grid gap-y-5">
-      {AboutData.map(value=>{
-        return(<p className="text-base text-darktext ">
-        {value}
-      </p>)
+      {AboutData.map((value) => {
+        return (
+          <p
+            className="text-base text-darktext "
+            dangerouslySetInnerHTML={{ __html: value }}
+          ></p>
+        );
       })}
     </div>
   );

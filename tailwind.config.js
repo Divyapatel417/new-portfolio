@@ -60,9 +60,10 @@ module.exports = {
         greentext: "#5eead4",
         darkertext: "#64748b",
       },
-      dropShadow: {
-        md: "0 25px 25px rgba(0, 0, 0, 0.25)",
-      },
+      boxShadow: {
+        'md': '0px 12px 22px -25px rgba(0, 0, 0, 0.4)',
+      }
+
     },
   },
   plugins: [],
