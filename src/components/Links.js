@@ -7,7 +7,7 @@ const Links = () => {
   return (
     <div className="flex flex-row gap-3 max-w-sm">
       <div
-        className="text-darktext hover:text-brighttext"
+        className="text-darktext cursor-pointer hover:text-brighttext"
         onClick={() => {
           window.open("https://github.com/Divyapatel417", "_newtab");
         }}
@@ -17,7 +17,7 @@ const Links = () => {
         </span>
       </div>
       <div
-        className="text-darktext hover:text-brighttext"
+        className="text-darktext cursor-pointer hover:text-brighttext"
         onClick={() => {
           window.open(
             "https://www.linkedin.com/in/divya-patel-b41b6b177/","_newtab");
