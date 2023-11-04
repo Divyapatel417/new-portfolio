@@ -6,6 +6,8 @@ const Introduction = () => {
       <p className="text-base text-darktext max-w-sm">
         Creating clean and intuitive web interfaces for the modern world.
       </p>
+      
+      
     </div>
   );
 };

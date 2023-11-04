@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./src/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: "400px",
+      sm: "200px",
       // => @media (min-width: 640px) { ... }
 
       lg: "1024px",
