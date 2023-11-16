@@ -3,21 +3,21 @@ import tasklist from "../assets/tasklist.png";
 import edgetech from "../assets/edgetech.png";
 export const ExperienceData = [
   {
-    time: "March 21---Feb 22",
-    title: "ReactJs Frontend Developer",
+    time: "March 21 to Feb 22",
+    title: "Frontend Developer",
     company: "Provitious technology pvt.",
     desc: "Developing new reusable components in React.js Fetching and displaying data from API.Creating Responsive components for mobile and desktop users. Created multiple Reusable components with HTML, CSS3, JavaScript. Used Redux to manage all states in project. ",
-    skills: ["ReactJs", "Html", "Css", "git", "redux", "javascript"],
+    skills: ["ReactJs", "Html", "Css3", "git", "redux", "javascript","Typescript"],
   },
   {
-    time: "Apr 20---July 20",
-    title: "Freelance",
-    company: "Linkedin",
+    time: "Apr 20 to July 20",
+    title: "Freelance Developer",
+    company: "Edgetech studio",
     desc: "I have developed and enhanced the company s website You can explore it at https://www.edgetech.studio/ ",
     skills: ["ReactJs", "Html", "Css", "git", "javascript"],
   },
   {
-    time: "Sept 19---Feb 20",
+    time: "Sept 19 to Feb 20",
     title: "Machine learning Intern",
     company: "Bhaskaracharya National Institute for Space Applications",
     desc: "We tackle every problem with full energy and enthusiasm, and always exceed expectations.",
@@ -33,7 +33,7 @@ export const ProjectsData = [
     title: "EdgeTech company site",
     desc: "I collaborated with the company's designer to revamp and modernize their website, enhancing its visual appeal and user experience. ",
     imgsrc: edgetech,
-    skills: ["ReactJs", "Html", "Scss", "git", "javascript"],
+    skills: ["ReactJs", "Html", "Sass", "git", "javascript","MaterialUi"],
   },
   {
     title: "My portfolio",
@@ -45,6 +45,6 @@ export const ProjectsData = [
     title: "Task list manager",
     desc: 'Collaborated with a team of three peers to design and develop an innovative task list management website equipped with a range of features including tasks, priorities, flags, groups, and projects. The tasklist aslo had feature of searching, filtering and sorting." ',
     imgsrc: tasklist,
-    skills: ["Html", "css", "git", "javascript"],
+    skills: ["Html", "css3", "git", "javascript"],
   },
 ];
