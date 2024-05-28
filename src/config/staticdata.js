@@ -10,10 +10,17 @@ export const ExperienceData = [
     skills: ["ReactJs", "Html", "Css3", "git", "redux", "javascript","Typescript"],
   },
   {
-    time: "Apr 20 to July 20",
-    title: "Freelance Developer",
-    company: "Edgetech studio",
+    time: "Apr 22 to Jun 22",
+    title: "Software Developer",
+    company: "Edgetech studio (Freelance)",
     desc: "I have developed and enhanced the company s website You can explore it at https://www.edgetech.studio/ ",
+    skills: ["ReactJs", "Html", "Css", "git", "javascript"],
+  },
+  {
+    time: "July 23 to Oct 23",
+    title: "Software Developer",
+    company: "Ready order (Freelance)",
+    desc: "Visit the ReadyOrder website at https://www.readyorder.com.au/ to explore the project. ",
     skills: ["ReactJs", "Html", "Css", "git", "javascript"],
   },
   {
